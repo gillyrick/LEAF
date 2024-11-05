@@ -476,7 +476,7 @@
 		"oa:hasSelector": {
 			"@id": "https://raw.githubusercontent.com/gillyrick/LEAF/main/LEAF%20Files%20for%20Students/15.Portugal-Ort.xml?person_annotation_20241105152356412#Selector",
 			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/div/p[4]/persName"
+			"rdf:value": "TEI/text/body/div/p[4]/persName[2]"
 		}
 	},
 	"oa:hasBody": {
@@ -812,13 +812,92 @@
 	"cwrc:hasPrecision": "cwrc:highCertainty"
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/gillyrick/LEAF/main/LEAF%20Files%20for%20Students/15.Portugal-Ort.xml?person_annotation_20241105153221937",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-11-05T20:32:21.937Z",
+	"dcterms:modified": "2024-11-05T20:32:21.937Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/gillyrick",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Ricky Gill"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/gillyrick/LEAF/main/LEAF%20Files%20for%20Students/15.Portugal-Ort.xml?person_annotation_20241105153221937#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/gillyrick/LEAF/main/LEAF%20Files%20for%20Students/15.Portugal-Ort.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.6.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/gillyrick/LEAF/main/LEAF%20Files%20for%20Students/15.Portugal-Ort.xml?person_annotation_20241105153221937#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/p[4]/persName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "http://www.wikidata.org/entity/Q319625",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.6.0"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData></teiHeader>
 	<text>
 		<body>
 			<pb facs="https://raw.githubusercontent.com/kmabennett/LEAF/refs/heads/main/15-Portugal-Ort-1.jpg"/>
 			<div>
 				<head>PORTVGAL</head>
-				<p>   This country of <placeName key="Kingdom of Portugal" ref="http://dbpedia.org/resource/Kingdom_of_Portugal" cert="high">Portvgal<precision match="@ref" precision="high"/></placeName> is enuyroned about with other countreys of <placeName key="Kingdom of Spain" ref="http://www.wikidata.org/entity/Q3399982" cert="medium">Spaine</placeName>, except on the west syde , for then it bordereth vpon <placeName key="Atlantic Ocean" ref="http://www.wikidata.org/entity/Q97" cert="high">the great westerne Ocean<precision match="@ref" precision="high"/></placeName> . </p><p>     It is in Latin called Lusofonia , taking this name (as is said) from Lusus donne vnto <persName key="Philip V of Spain" ref="http://www.wikidata.org/entity/Q170467" cert="low" type="real">the nynteenth King of Spaine</persName> . Sundry faire riners do take their courtes through this region , of which the ruler Tagus novv called Tale is the principal,&amp; was of old tyme more famous, for for that his sandes along by the banck sydes were mingled with gold.</p><p>     The whole country is wel inhabited , and albeit <placeName key="Kingdom of Portugal" ref="http://dbpedia.org/resource/Kingdom_of_Portugal" cert="high">Portvgal<precision match="@ref" precision="high"/></placeName> hath little or no wyne yet Algarbe which is ioyned &amp; reconed with it , yeildeth very good wynes.     Mountanous it is not , neither reported to have mynes. </p><p>     This kingdome began about the year of our Lord 1100  in this ſorte. Henry an Earle of Loraine coming into Spaine, ſhewed himſelf very valiant (and) had many victories against the <orgName key="Muslim" ref="http://www.wikidata.org/entity/Q47740" cert="high">Saracin</orgName>, for the which <persName key="Alfonso VI, King of Castile and Leon, 1030-1109" ref="http://viaf.org/viaf/40710875/">Alfonso the ſixt King of Cuſilia</persName> gaue hime his baſe daughter Tyreſis in marriage (and) bestowed with her this country vpon him.</p><p>Of there twaine came <persName key="Afonso I, King of Portugal, 1109?-1185" ref="http://viaf.org/viaf/314149196469574791471/" cert="low" type="real">Alſonſus the first King of Portugal</persName>, the firſt that gat ont of the handles of the <orgName key="Muslim" ref="http://www.wikidata.org/entity/Q47740">Saracins</orgName> the citie of <placeName key="Lisbon" ref="http://www.wikidata.org/entity/Q597">Liſbon.</placeName> He alſo ouercame in one battaile fyue Kinges, in memorie whereof he bore in his armes fyue ſhields, as in the armes of Portugal do yet appear. This kingdome albeit but little yet hath it enlarged it ſelf in glory (and) fame euen to the farrheft boundes of the world (and) by the great trade of ſpices (and) other pretipus wares from the eaſt Indies hath bin moſte mightily enriched. This trade began in the raigne of King John he hfecond and hath continued with exceeding comodite (and) the augmentation of ſundry tytles of other crownes (and) kingdomes. This realme of Portugal after the death of Henry ſixt Cardinal (and)laſtly King (who succeeded Sebaſtian that was in Africa) became with whatſoever belonged vnto it, to bee vnder the obeyance of Philip the ſecond King of Spaine (and) ſo remaineth ioyned with the other kingdomes of Spaine, in one entyre monarchie. 
+				<p>   This country of <placeName key="Kingdom of Portugal" ref="http://dbpedia.org/resource/Kingdom_of_Portugal" cert="high">Portvgal<precision match="@ref" precision="high"/></placeName> is enuyroned about with other countreys of <placeName key="Kingdom of Spain" ref="http://www.wikidata.org/entity/Q3399982" cert="medium">Spaine</placeName>, except on the west syde , for then it bordereth vpon <placeName key="Atlantic Ocean" ref="http://www.wikidata.org/entity/Q97" cert="high">the great westerne Ocean<precision match="@ref" precision="high"/></placeName> . </p><p>     It is in Latin called Lusofonia , taking this name (as is said) from Lusus donne vnto <persName key="Philip V of Spain" ref="http://www.wikidata.org/entity/Q170467" cert="low" type="real">the nynteenth King of Spaine</persName> . Sundry faire riners do take their courtes through this region , of which the ruler Tagus novv called Tale is the principal,&amp; was of old tyme more famous, for for that his sandes along by the banck sydes were mingled with gold.</p><p>     The whole country is wel inhabited , and albeit <placeName key="Kingdom of Portugal" ref="http://dbpedia.org/resource/Kingdom_of_Portugal" cert="high">Portvgal<precision match="@ref" precision="high"/></placeName> hath little or no wyne yet Algarbe which is ioyned &amp; reconed with it , yeildeth very good wynes.     Mountanous it is not , neither reported to have mynes. </p><p>     This kingdome began about the year of our Lord 1100  in this ſorte. <persName key="Henry of Burgundy" ref="http://www.wikidata.org/entity/Q319625">Henry an Earle of Loraine</persName> coming into Spaine, ſhewed himſelf very valiant (and) had many victories against the <orgName key="Muslim" ref="http://www.wikidata.org/entity/Q47740" cert="high">Saracin</orgName>, for the which <persName key="Alfonso VI, King of Castile and Leon, 1030-1109" ref="http://viaf.org/viaf/40710875/">Alfonso the ſixt King of Cuſilia</persName> gaue hime his baſe daughter Tyreſis in marriage (and) bestowed with her this country vpon him.</p><p>Of there twaine came <persName key="Afonso I, King of Portugal, 1109?-1185" ref="http://viaf.org/viaf/314149196469574791471/" cert="low" type="real">Alſonſus the first King of Portugal</persName>, the firſt that gat ont of the handles of the <orgName key="Muslim" ref="http://www.wikidata.org/entity/Q47740">Saracins</orgName> the citie of <placeName key="Lisbon" ref="http://www.wikidata.org/entity/Q597">Liſbon.</placeName> He alſo ouercame in one battaile fyue Kinges, in memorie whereof he bore in his armes fyue ſhields, as in the armes of Portugal do yet appear. This kingdome albeit but little yet hath it enlarged it ſelf in glory (and) fame euen to the farrheft boundes of the world (and) by the great trade of ſpices (and) other pretipus wares from the eaſt Indies hath bin moſte mightily enriched. This trade began in the raigne of King John he hfecond and hath continued with exceeding comodite (and) the augmentation of ſundry tytles of other crownes (and) kingdomes. This realme of Portugal after the death of Henry ſixt Cardinal (and)laſtly King (who succeeded Sebaſtian that was in Africa) became with whatſoever belonged vnto it, to bee vnder the obeyance of Philip the ſecond King of Spaine (and) ſo remaineth ioyned with the other kingdomes of Spaine, in one entyre monarchie. 
 </p></div>
 		</body>
 	</text>
